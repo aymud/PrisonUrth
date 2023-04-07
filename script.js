@@ -1,5 +1,5 @@
 function renderAge() {
-    const birthDateInUTC = new Date('1190-04-01T06:23:01Z');
+    const birthDateInUTC = new Date('1190-04-12T06:23:01Z');
     const currentDate = Date.now();
     const timeDiffInMs = currentDate - birthDateInUTC.getTime();
 
